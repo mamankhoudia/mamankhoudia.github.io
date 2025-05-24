@@ -197,4 +197,39 @@ main {
   .skills li {
     margin: 8px 0;
   }
+
   
+  form {
+    background: rgba(255, 255, 255, 0.07);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fdfdfd;
+    color: #333;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form button {
+    background: #667eea;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #5a67d8;
+}

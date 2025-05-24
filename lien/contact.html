@@ -21,14 +21,18 @@
     <section>
         <h3>Contactez-moi</h3>
         <p>Vous pouvez me joindre directement par téléphone ou m'envoyer un message via le formulaire.</p>
-        
-        <p><strong>Téléphone :</strong> <a href="tel:+221707325971">+221 70 732 59 71</a></p>
+
+        <!-- Numéro partiellement masqué -->
+        <p><strong>Téléphone :</strong> +221 70 *** ** 71</p>
+        <p>Pour obtenir mon numéro complet, merci de me contacter par e-mail.</p>
+
         <p><strong>Email :</strong> <a href="mailto:dkhoudia159@gmail.com">dkhoudia159@gmail.com</a></p>
 
-        <form>
-            <input type="text" placeholder="Votre nom" required>
-            <input type="email" placeholder="Votre email" required>
-            <textarea placeholder="Votre message" rows="5" required></textarea>
+        <form action="https://formspree.io/f/xyzwaqdj" method="POST">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
             <button type="submit">Envoyer</button>
         </form>
     </section>
