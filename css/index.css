@@ -235,40 +235,30 @@ form button:hover {
 }
 
 @media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-
-  header {
-    padding: 30px 15px;
-  }
-
-  header img {
-    width: 90px;
-    height: 90px;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
   .nav-menu {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    padding: 0;
   }
 
-  section {
-    padding: 20px 15px;
-  }
-
-  form input,
-  form textarea {
-    font-size: 14px;
-  }
-
-  .button,
-  form button {
+  .nav-menu li {
     width: 100%;
     text-align: center;
+    margin: 5px 0;
   }
+
+  .nav-menu li a {
+    display: block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+}
+section {
+  margin-bottom: 30px;
+}
+
+form button, .button {
+  font-size: 16px;
+  padding: 14px 24px;
 }
