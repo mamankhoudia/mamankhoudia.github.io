@@ -233,3 +233,42 @@ form button {
 form button:hover {
     background: #5a67d8;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 30px 15px;
+  }
+
+  header img {
+    width: 90px;
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+
+  .button,
+  form button {
+    width: 100%;
+    text-align: center;
+  }
+}
